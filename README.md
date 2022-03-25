@@ -30,6 +30,6 @@ For the installation process, follow the steps given below:
 - Windows `.\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic KafkaTopicExample --from-beginning`
 - Linux `bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic KafkaTopicExample --from-beginning`
 
-## Publish message via WebService
+## Publish message on Kafka via WebService
 - `http://localhost:8081/kafka/publish/John`
 - `http://localhost:8081/kafka/publish/Doe`
