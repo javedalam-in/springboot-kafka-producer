@@ -7,7 +7,7 @@ In this project I have covered how to use Kafka to Publish JSON or String messag
 - Linux `bin/zookeeper-server-start.sh config/zookeeper.properties`
 
 ## Start Kafka Server
-- ###Windows `.\bin\windows\kafka-server-start.bat .\config\server.properties`
+- Windows `.\bin\windows\kafka-server-start.bat .\config\server.properties`
 - Linux `bin/kafka-server-start.sh config/server.properties`
 
 ## Create Kafka Topic
@@ -21,3 +21,9 @@ In this project I have covered how to use Kafka to Publish JSON or String messag
 ## Publish message via WebService
 - `http://localhost:8081/kafka/publish/John`
 - `http://localhost:8081/kafka/publish/Doe`
+
+# How to Install and Run Apache Kafka on Windows/Linux?
+
+##Downloading and Installation
+
+###Apache Kafka can be downloaded from its official site kafka.apache.org
