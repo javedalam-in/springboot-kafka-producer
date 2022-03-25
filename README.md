@@ -1,13 +1,13 @@
 # Kafka Producer Example with Spring Boot
 
-In this project I have covered how to use Spring Kafka to Publish JSON or String message to a Kafka topic with Spring Boot.
+In this project I have covered how to use Kafka to Publish JSON or String message to a Kafka topic with Spring Boot.
 
 ## Start Zookeeper
 - Windows `.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties`
 - Linux `bin/zookeeper-server-start.sh config/zookeeper.properties`
 
 ## Start Kafka Server
-- Windows `.\bin\windows\kafka-server-start.bat .\config\server.properties`
+- ###Windows `.\bin\windows\kafka-server-start.bat .\config\server.properties`
 - Linux `bin/kafka-server-start.sh config/server.properties`
 
 ## Create Kafka Topic
