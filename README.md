@@ -26,4 +26,4 @@ In this project I have covered how to use Kafka to Publish JSON or String messag
 
 ##Downloading and Installation
 
-###Apache Kafka can be downloaded from its official site [kafka.apache.org] (https://kafka.apache.org/)
+###Apache Kafka can be downloaded from its official site https://kafka.apache.org/
