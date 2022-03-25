@@ -24,6 +24,14 @@ In this project I have covered how to use Kafka to Publish JSON or String messag
 
 # How to Install and Run Apache Kafka on Windows/Linux?
 
-##Downloading and Installation
+## Downloading and Installation
 
-###Apache Kafka can be downloaded from its official site https://kafka.apache.org/
+### Apache Kafka can be downloaded from its official site https://kafka.apache.org/downloads
+
+For the installation process, follow the steps given below:
+
+- From Downloads folder and select the downloaded Binary file.
+- Extract the file and move the extracted folder to the directory/folder where you want to keep the files.
+- Copy the path of the Kafka folder. Now go to config inside kafka folder and open zookeeper.properties file. Copy the path against the field dataDir and add /zookeeper-data to the path e.g C:/kafka/zookeeper-data.
+- Now open from same config folder server.properties and scroll down to log.dirs and paste the path. To the path add C:/kafka-logs
+- Configuration of zookeeper and kafka server is completed. Now open command prompt or terminal and go to directory/folder to the kafka.
